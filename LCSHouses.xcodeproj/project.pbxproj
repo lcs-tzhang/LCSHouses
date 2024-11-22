@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		810E76AA2CF01D580093C1BB /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76A72CF01D580093C1BB /* HousesListView.swift */; };
+		810E76AB2CF01D580093C1BB /* LCSHousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76A82CF01D580093C1BB /* LCSHousesApp.swift */; };
+		810E76AC2CF01D580093C1BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810E76A42CF01D580093C1BB /* Preview Assets.xcassets */; };
+		810E76AD2CF01D580093C1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810E76A62CF01D580093C1BB /* Assets.xcassets */; };
+		810E76B02CF01D810093C1BB /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76AF2CF01D810093C1BB /* HouseView.swift */; };
+		810E76B32CF01D970093C1BB /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76B22CF01D970093C1BB /* House.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		810E76932CF01D4F0093C1BB /* LCSHouses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCSHouses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810E76A42CF01D580093C1BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		810E76A62CF01D580093C1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810E76A72CF01D580093C1BB /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
+		810E76A82CF01D580093C1BB /* LCSHousesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSHousesApp.swift; sourceTree = "<group>"; };
+		810E76AF2CF01D810093C1BB /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		810E76B22CF01D970093C1BB /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		810E76952CF01D4F0093C1BB /* LCSHouses */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LCSHouses;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		810E76902CF01D4F0093C1BB /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		810E768A2CF01D4F0093C1BB = {
 			isa = PBXGroup;
 			children = (
-				810E76952CF01D4F0093C1BB /* LCSHouses */,
+				810E76A92CF01D580093C1BB /* LCSHouses */,
 				810E76942CF01D4F0093C1BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,43 @@
 				810E76932CF01D4F0093C1BB /* LCSHouses.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		810E76A52CF01D580093C1BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				810E76A42CF01D580093C1BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		810E76A92CF01D580093C1BB /* LCSHouses */ = {
+			isa = PBXGroup;
+			children = (
+				810E76A82CF01D580093C1BB /* LCSHousesApp.swift */,
+				810E76B12CF01D890093C1BB /* Model */,
+				810E76AE2CF01D730093C1BB /* Views */,
+				810E76A52CF01D580093C1BB /* Preview Content */,
+				810E76A62CF01D580093C1BB /* Assets.xcassets */,
+			);
+			path = LCSHouses;
+			sourceTree = "<group>";
+		};
+		810E76AE2CF01D730093C1BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				810E76A72CF01D580093C1BB /* HousesListView.swift */,
+				810E76AF2CF01D810093C1BB /* HouseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		810E76B12CF01D890093C1BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				810E76B22CF01D970093C1BB /* House.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +103,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				810E76952CF01D4F0093C1BB /* LCSHouses */,
 			);
 			name = LCSHouses;
 			packageProductDependencies = (
@@ -109,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810E76AC2CF01D580093C1BB /* Preview Assets.xcassets in Resources */,
+				810E76AD2CF01D580093C1BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810E76AA2CF01D580093C1BB /* HousesListView.swift in Sources */,
+				810E76AB2CF01D580093C1BB /* LCSHousesApp.swift in Sources */,
+				810E76B32CF01D970093C1BB /* House.swift in Sources */,
+				810E76B02CF01D810093C1BB /* HouseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
