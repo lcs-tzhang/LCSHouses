@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51F2821B2D0B486200A0840C /* HouseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2821A2D0B486200A0840C /* HouseDetailView.swift */; };
 		810E76AA2CF01D580093C1BB /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76A72CF01D580093C1BB /* HousesListView.swift */; };
 		810E76AB2CF01D580093C1BB /* LCSHousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E76A82CF01D580093C1BB /* LCSHousesApp.swift */; };
 		810E76AC2CF01D580093C1BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810E76A42CF01D580093C1BB /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51F2821A2D0B486200A0840C /* HouseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailView.swift; sourceTree = "<group>"; };
 		810E76932CF01D4F0093C1BB /* LCSHouses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCSHouses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810E76A42CF01D580093C1BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		810E76A62CF01D580093C1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				810E76A72CF01D580093C1BB /* HousesListView.swift */,
 				810E76AF2CF01D810093C1BB /* HouseView.swift */,
+				51F2821A2D0B486200A0840C /* HouseDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F2821B2D0B486200A0840C /* HouseDetailView.swift in Sources */,
 				810E76AA2CF01D580093C1BB /* HousesListView.swift in Sources */,
 				810E76AB2CF01D580093C1BB /* LCSHousesApp.swift in Sources */,
 				810E76B32CF01D970093C1BB /* House.swift in Sources */,

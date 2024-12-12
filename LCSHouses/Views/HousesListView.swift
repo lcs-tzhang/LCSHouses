@@ -11,7 +11,11 @@ struct HousesListView: View {
     var body: some View {
         NavigationStack {
             List(boardingHouses) { currentHouse in
-                HouseView(providedHouse: currentHouse)
+                NavigationLink{
+                    HouseDetailView(houseToShow: currentHouse, providedHouse: currentHouse)
+                }label: {
+                    HouseView(providedHouse: currentHouse)
+                }
             }
             .navigationTitle("LCS Houses")
         }
