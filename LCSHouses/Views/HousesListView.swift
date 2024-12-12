@@ -14,7 +14,7 @@ struct HousesListView: View {
                 NavigationLink{
                     HouseDetailView(houseToShow: currentHouse)
                 }label: {
-                    HouseView(providedHouse: currentHouse)
+                    HouseView(houseToShow: currentHouse)
                 }
             }
             .navigationTitle("LCS Houses")

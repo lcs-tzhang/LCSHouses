@@ -9,18 +9,18 @@ import SwiftUI
 
 struct HouseView: View {
     
-    let providedHouse: House
+    let houseToShow: House
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(providedHouse.name)
+            Text(houseToShow.name)
                 .font(.largeTitle)
-            Text(providedHouse.description)
+            Text(houseToShow.description)
         }
     }
 }
 
 #Preview {
-    HouseView(providedHouse: ryder)
+    HouseView(houseToShow: ryder)
         .padding()
 }
