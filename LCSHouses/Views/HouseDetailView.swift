@@ -11,7 +11,6 @@ struct HouseDetailView: View {
     
     // MARK: Stored properties
     let houseToShow: House
-    let providedHouse: House
     
     // MARK: Computed properties
     var body: some View {
@@ -21,27 +20,27 @@ struct HouseDetailView: View {
                     .resizable()
                     .scaledToFit()
 
-                    Text(providedHouse.name)
+                    Text(houseToShow.name)
                         .font(.largeTitle)
                     Text("Head of House")
                         .font(.largeTitle)
                     Spacer()
                         .frame(height:20)
-                    Text(providedHouse.headofhouse)
+                    Text(houseToShow.headofhouse)
                     Spacer()
                         .frame(height:20)
                     Text("Support")
                         .font(.largeTitle)
                     Spacer()
                         .frame(height:20)
-                    Text(providedHouse.support)
+                    Text(houseToShow.support)
                     Spacer()
                         .frame(height:20)
                     Text("Description")
                         .font(.largeTitle)
                     Spacer()
                         .frame(height:20)
-                    Text(providedHouse.description)
+                    Text(houseToShow.description)
                 }
             .padding()
         }
@@ -50,4 +49,7 @@ struct HouseDetailView: View {
 }
                          
  
+#Preview {
+    HouseDetailView(houseToShow: parent)
+}
 

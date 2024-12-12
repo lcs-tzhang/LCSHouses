@@ -12,7 +12,7 @@ struct HousesListView: View {
         NavigationStack {
             List(boardingHouses) { currentHouse in
                 NavigationLink{
-                    HouseDetailView(houseToShow: currentHouse, providedHouse: currentHouse)
+                    HouseDetailView(houseToShow: currentHouse)
                 }label: {
                     HouseView(providedHouse: currentHouse)
                 }
