@@ -15,13 +15,15 @@ struct HouseDetailView: View {
     // MARK: Computed properties
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(alignment: .leading){
+                Text(houseToShow.name)
+                    .font(.largeTitle)
                 Image(houseToShow.image)
                     .resizable()
                     .scaledToFit()
 
-                    Text(houseToShow.name)
-                        .font(.largeTitle)
+                    Spacer()
+                    .frame(height:20)
                     Text("Head of House")
                         .font(.largeTitle)
                     Spacer()
